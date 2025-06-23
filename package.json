@@ -2,12 +2,25 @@
   "name": "mern-auth",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodeman api/index.js",
+    "start": "node api/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehar-hammad/mern-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mehar-hammad/mern-auth/issues"
+  },
+  "homepage": "https://github.com/mehar-hammad/mern-auth#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
